@@ -6,6 +6,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    display: block;
 }
 
 .header-list {
@@ -13,7 +14,7 @@
     justify-content: space-between;
 }
 
-body {
+ body {
     font-family: sans-serif;
 }
 
@@ -41,12 +42,16 @@ body {
     font-size: 50px;
 }
 
-h3 {
+h1 {
+    text-align: center;
+}
+
+ h3 {
     font-size: 36px;
     text-align: center;
 }
 
-h4 {
+ h4 {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
@@ -61,6 +66,10 @@ h4 {
     font-weight: 500;
     font-size: 44px;
     text-align: center;
+}
+
+.main {
+    display: flex;
 }
 
 .type-text {
@@ -81,5 +90,15 @@ h4 {
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
+.f-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-list {
+    flex-grow: 1;
+}
+
 
 
