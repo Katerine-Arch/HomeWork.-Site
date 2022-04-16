@@ -1,5 +1,4 @@
 ﻿* {
-    margin: 0;
     padding: 0;
 }
 
@@ -8,13 +7,10 @@
     margin: 0 auto;
 }
 
-/*.c-menu {
+.header-list {
     display: flex;
-}*/
-
-/*.m-list {
-    justify-content: space-around;
-}*/
+    justify-content: space-between;
+}
 
 body {
     font-family: sans-serif;
