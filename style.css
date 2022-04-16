@@ -29,7 +29,14 @@ body {
 .top-heading {
     width: 510px;
     font-size: 64px;
+    font-weight: 300;
     color: #1F3F68;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+}
+
+.text-t {
+    padding-top: 115px; 
 }
 
 .top-text {
