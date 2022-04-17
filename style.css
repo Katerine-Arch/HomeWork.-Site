@@ -80,30 +80,54 @@ body {
 .text-body {
     display: flex;
     justify-content: space-between;
+    padding-top: 64px;
+}
+
+.what-I-do {
+    padding-top: 64px;
 }
 
 .card-box {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 64px;
 }
 
 .card {
     width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    margin-right: 32px;
 }
 
 h1 {
     text-align: center;
 }
 
- h3 {
+.heading {
     font-size: 36px;
     text-align: center;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
 }
 
- h4 {
+.heading-mini {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+
+.card-link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none; 
 }
 
 .header {
