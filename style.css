@@ -330,3 +330,16 @@ margin-top: 71px;
         background-position: right 280px;
     }
 }
+
+@media (max-width: 667px) {
+    .top-heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 12px;
+    }
+
+    .top-text {
+        width: 100%;
+    }
+}
