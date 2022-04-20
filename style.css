@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -65,6 +65,7 @@ body {
     background-image: url(img/top-back.svg);
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: 44%;
 }
 
 .top-text {
@@ -320,3 +321,12 @@ margin-top: 71px;
         opacity: 0.4;
     }
 
+@media (max-width: 1024px) {
+    .container {
+    padding-left: 32px;
+    padding-right: 32px;
+    }
+    .text-t {
+        background-position: right 280px;
+    }
+}
