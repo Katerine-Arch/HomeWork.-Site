@@ -327,6 +327,7 @@ margin-top: 71px;
     padding-left: 32px;
     padding-right: 32px;
     }
+
     .text-t {
         background-position: right 280px;
         background-size: 30%;
@@ -348,6 +349,18 @@ margin-top: 71px;
         padding-bottom: 64px;
     }
 
+    /*.f-info {
+        flex-flow: column;
+    }
+
+    .f-list {
+        padding-bottom: 17px;
+    }
+
+    .footer-copy {
+        margin-top: 37px;
+        margin-bottom: 32px;
+    }*/
 }
 
 @media (max-width: 667px) {
@@ -458,7 +471,6 @@ margin-top: 71px;
 
     .f-info {
         flex-flow: column;
-
     }
 
     .f-list {
