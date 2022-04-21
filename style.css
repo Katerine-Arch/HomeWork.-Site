@@ -171,6 +171,10 @@ h1 {
     flex-grow: 1;
 }
 
+.project__item__margin {
+    margin-right: 32px;
+}
+
 .pi_style {
     margin-right: 32px;
 }
@@ -196,7 +200,7 @@ h1 {
     color: #FFFFFF;
 }
 
-.pt_mini {
+.pt__mini {
     left: 32px;
     top: 32px;
     right: auto;
@@ -329,6 +333,10 @@ margin-top: 71px;
     }
     .text-t {
         background-position: right 280px;
+        /*
+        background-size: 30%;
+        background-position: right 330px;
+        */
     }
 
     .card-box {
