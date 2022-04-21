@@ -100,6 +100,7 @@ body {
 .card-box {
     display: flex;
     justify-content: space-between;
+    /*padding-top: 64px;*/
     padding-bottom: 64px;
 }
 
@@ -380,4 +381,82 @@ margin-top: 71px;
         line-height: 26px;
         padding: 0 8px; 
     }
+
+    .what-I-do {
+        padding-top: 48px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .card-box {
+        padding-top: 32px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .text-project {
+        width: 100%;
+    }
+
+    .project__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+
+    .project__parent {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .project__item__margin {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .pt__mini {
+        left: 16px;
+    }
+
+    .b-footer {
+        padding-bottom: 41px;
+        flex-flow: column;
+    }
+
+    .footer-text {
+        width: 343px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .footer-mini-header {
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .footer-bottom {
+        margin-top: 32px;
+    }
+
+    .f-info {
+        flex-flow: column;
+
+    }
+
+    .f-list {
+        padding-bottom: 17px;
+    }
+
+    .footer-copy {
+        margin-top: 37px;
+        margin-bottom: 32px;
+    }
 }
+
