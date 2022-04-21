@@ -242,7 +242,9 @@ h1 {
 .b-footer {
     padding-bottom: 96px;
     display: flex;
-    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    /*flex-flow: column;*/
 }
 
 hr {
@@ -260,13 +262,6 @@ hr {
     color: #FFFFFF;
     text-align: left;
     width: 494.77px;
-    /*opacity: 0.6;
-    text-align: left;
-    width: 50%;
-    margin-top: 215px;
-    margin-right: 759px;
-    margin-bottom: 96px;
-    */
 }
 
 .footer-button {
@@ -278,9 +273,9 @@ hr {
     background: #5A98D0;
     text-decoration: none;
     padding: 15px 80px;
-    left: 1015px;
+    /*left: 1015px;
     top: 2881px;
-    position: absolute;
+    position: absolute;*/
 }
     /*
     box-shadow: 5px 10px 20px
