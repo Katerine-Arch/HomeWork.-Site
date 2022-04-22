@@ -202,6 +202,7 @@ h1 {
 }
 
 .pt__mini {
+    font-size: 28px;
     left: 32px;
     top: 32px;
     right: auto;
@@ -259,7 +260,7 @@ hr {
     margin-bottom: 32px;
 }
 
-.footer-text {
+.f-text {
     color: #FFFFFF;
     text-align: left;
     width: 494.77px;
@@ -334,6 +335,10 @@ margin-top: 71px;
         background-position: right 330px;
     }
 
+    .text-body {
+        flex-direction: column;
+    }
+
     .card-box {
         flex-direction: column;
         align-items: center;
@@ -342,25 +347,34 @@ margin-top: 71px;
     .card {
         margin-bottom: 32px;
     }
-
+    
+    .project__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
     .footer {
         margin-top: 112px;
         padding-top: 48px;
         padding-bottom: 64px;
     }
 
-    /*.f-info {
-        flex-flow: column;
+    .footer-button {
+        padding: 4px 31px;
+    }
+
+    .b-footer {
+        flex-wrap: wrap;
+    }
+
+    .f-info {
+        flex-direction: column;
     }
 
     .f-list {
-        padding-bottom: 17px;
+        margin-bottom: 24px;
     }
-
-    .footer-copy {
-        margin-top: 37px;
-        margin-bottom: 32px;
-    }*/
 }
 
 @media (max-width: 667px) {
@@ -450,19 +464,26 @@ margin-top: 71px;
 
     .b-footer {
         padding-bottom: 41px;
-        flex-flow: column;
+        flex-direction: column;
     }
 
     .footer-text {
-        width: 343px;
+        width: 100%;
+    }
+
+    .f-text {
+        width: 100%;
         text-align: center;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
 
     .footer-mini-header {
+        width: 75%;
+        padding-top: 18px;
         text-align: center;
         font-size: 24px;
         line-height: 28px;
+        margin: 0 auto 32px;
     }
 
     .footer-bottom {
@@ -470,7 +491,7 @@ margin-top: 71px;
     }
 
     .f-info {
-        flex-flow: column;
+        flex-direction: column;
     }
 
     .f-list {
