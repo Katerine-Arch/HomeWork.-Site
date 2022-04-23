@@ -18,7 +18,7 @@ body {
 }
 
 .top-contacts {
-    min-height: 450px;
+    height: 471px;
     background-image: url(img/top-contact-back.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -107,7 +107,7 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 0.6);
-    padding-top: 16px;
+    margin: auto 128px 50px;
 }
 
 .top-button {
@@ -207,7 +207,6 @@ h1 {
 
 .form {
     width: 45%;
-    padding: 56px px;
     box-sizing: border-box;
     box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
     border-radius: 10px;
@@ -482,10 +481,48 @@ margin-top: 71px;
         top: 16px;
         right: 16px;
     }
+
+    .top-text-contacts {
+        width: 520px;
+        margin: auto 124px 50px;
+    }
+
+    .main-contacts {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-mini-contacts {
+        width: 299px;
+        margin: auto;
+        text-align: left;
+    }
+
+    .tmc-margin-b {
+        margin-bottom: 64px;
+    }
+
+    .li-contacts {
+        margin-top: 16px;
+    }
+
+    .form {
+        margin: auto;
+        text-align: left;
+    }
+
+    .map {
+        padding: 0;
+    }
+
     .footer {
         margin-top: 112px;
         padding-top: 48px;
         padding-bottom: 64px;
+    }
+
+    .footer-contacts {
+        margin-top: 14px;
     }
 
     .footer-button {
