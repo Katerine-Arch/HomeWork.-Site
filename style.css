@@ -18,7 +18,7 @@ body {
 }
 
 .top-contacts {
-    min-height: 500px;
+    min-height: 450px;
     background-image: url(img/top-contact-back.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -190,6 +190,7 @@ h1 {
 
 .heading-mini-contacts {
     padding: 40px 0px 24px;
+    text-transform: uppercase;
 }
 
 .tmc-margin {
@@ -202,6 +203,60 @@ h1 {
     line-height: 26px;
     letter-spacing: 0.04em;
     opacity: 0.6;
+}
+
+.form {
+    width: 45%;
+    padding: 56px px;
+    box-sizing: border-box;
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-mini-contacts-form {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin: 56px 56px 16px;
+}
+
+.form-input {
+    padding: 0px 56px 72px 56px;
+}
+
+.form-input-text {
+    padding-top: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
+.type-text-form {
+    height: 56px;
+    padding-left: 42px;
+    width: 100%;
+}
+
+.type-text-form-last {
+    height: 56px;
+    padding-top: 21px;
+    height: 144px;
+}
+
+.bs-contacts {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 56px;
+    height: 72px;
+    margin-bottom: 56px;
 }
 
 .card-link {
@@ -228,11 +283,16 @@ h1 {
 }
 
 .main-contacts {
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 96px;
+    max-width: 940px;
+}
+
+.map {
+    max-width: 940px;
 }
 
 .project {
-
 }
 
 .project__item {
