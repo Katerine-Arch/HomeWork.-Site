@@ -18,7 +18,7 @@ body {
 }
 
 .top-contacts {
-    min-height: 768px;
+    min-height: 500px;
     background-image: url(img/top-contact-back.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -88,7 +88,6 @@ body {
 }
 
 .top_heading-contacts {
-    margin-top: 180px;
     font-weight: 500;
     font-size: 44px;
     line-height: 74px;
@@ -178,12 +177,39 @@ h1 {
     margin-bottom: 14px;
 }
 
+.contacts-info {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.li-contacts {
+    list-style-type: none;
+}
+
+.heading-mini-contacts {
+    padding: 40px 0px 24px;
+}
+
+.tmc-margin {
+    margin-bottom: 16px;
+}
+
+.text-mini-contacts {
+    max-width: 299px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    opacity: 0.6;
+}
+
 .card-link {
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
     color: #5A98D0;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .header {
@@ -199,6 +225,10 @@ h1 {
 
 .main {
     display: flex;
+}
+
+.main-contacts {
+    justify-content: space-evenly;
 }
 
 .project {
