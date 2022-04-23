@@ -17,13 +17,13 @@ body {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
-.top-contacts {
+/*.top-contacts {
     height: 471px;
     background-image: url(img/top-contact-back.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-}
+}*/
 
 .top-box {
     display: flex;
@@ -31,11 +31,14 @@ body {
     height: 100%;
 }
 
+.top-box-contacts {
+    padding: 16px;
+}
+
 .header-list {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding-top: 42px;
 }
 
 .header-list-contacts {
@@ -79,12 +82,9 @@ body {
 }
 
 .text-t-contacts {
-   /* background-image: url(img/top-contact-back.png);
+   background-image: url(img/top-contact-back.png);
     background-repeat: no-repeat;
-    height: 471px;
-    background-size: inherit;
-    margin-top: -190px;
-    background-position: center;*/
+    height: auto;
 }
 
 .top_heading-contacts {
@@ -287,6 +287,11 @@ h1 {
     max-width: 940px;
 }
 
+.m-list-contacts {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .map {
     max-width: 940px;
 }
@@ -456,6 +461,10 @@ margin-top: 71px;
     padding-right: 32px;
     }
 
+    .container-contacts {
+        padding: 0;
+    }
+
     .text-t {
         background-position: right 280px;
         background-size: 30%;
@@ -490,6 +499,7 @@ margin-top: 71px;
     .main-contacts {
         flex-direction: column;
         text-align: center;
+        margin-top: 64px;
     }
 
     .text-mini-contacts {
@@ -543,6 +553,10 @@ margin-top: 71px;
 }
 
 @media (max-width: 667px) {
+    .container-contacts {
+        padding: 0;
+    }
+    
     .top {
         min-height: 376px;
         padding-bottom: 41px;
@@ -550,23 +564,58 @@ margin-top: 71px;
         background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
     }
 
+    .top-box {
+        padding: 0;
+    }
+
     .m-list {
         padding-top: 24px;
         display: flex;
         flex-direction: column;
         align-items: center;
-     }
+    }
+
+    .m-list-contacts {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 
     .text-t {
         padding-top: 36px;
         text-align: center;
         background-image: none;
     }
+    .header-list-contacts {
+        padding: 0;
+    }
+    
     .top-heading {
         width: 100%;
         font-size: 32px;
         line-height: 38px;
         margin-bottom: 12px;
+    }
+
+    .top_heading-contacts {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        margin-top: 59px;
+        margin-bottom: 32px;
+    }
+
+    .top-text-contacts {
+        width: 341px;
+        font-size: 16px;
+        line-height: 30px;
+        margin: auto;
+        margin-bottom: 51px;
+    }
+
+    .main-contacts {
+        margin-top: 46px;
+        margin-bottom: 32px;
     }
 
     .top-text {
@@ -620,6 +669,15 @@ margin-top: 71px;
 
     .pt__mini {
         left: 16px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .button-submit {
+        height: 46px;
+        width: 270px;
     }
 
     .footer {
