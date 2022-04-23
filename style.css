@@ -14,9 +14,15 @@ body {
 
 .top {
     min-height: 768px;
-    background: linear-gradient(0deg,
-    #EBF3FB 8.84%, rgba(152, 195, 232,
-    0) 31.12%);
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.top-contacts {
+    min-height: 768px;
+    background-image: url(img/top-contact-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .top-box {
@@ -30,6 +36,10 @@ body {
     justify-content: space-between;
     list-style-type: none;
     padding-top: 42px;
+}
+
+.header-list-contacts {
+    padding: 44px 0;
 }
 
 .top-heading {
@@ -68,8 +78,37 @@ body {
     background-size: 44%;
 }
 
+.text-t-contacts {
+   /* background-image: url(img/top-contact-back.png);
+    background-repeat: no-repeat;
+    height: 471px;
+    background-size: inherit;
+    margin-top: -190px;
+    background-position: center;*/
+}
+
+.top_heading-contacts {
+    margin-top: 180px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
 .top-text {
     width: 425px;
+}
+
+.top-text-contacts {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 16px;
 }
 
 .top-button {
@@ -78,8 +117,7 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: #5A98D0;
-    box-shadow: 5px 10px 20px 
-    rgba(53, 110, 173, 0.2);
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
     padding: 15px 50px;
     text-decoration: none;
